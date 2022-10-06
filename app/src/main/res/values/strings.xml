@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nearmusic</string>
+    <string name="tv_correo">Correo electrónico</string>
+    <string name="tv_contrasena">Contraseña</string>
+</resources>
