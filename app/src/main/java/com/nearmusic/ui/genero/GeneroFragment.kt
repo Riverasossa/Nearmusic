@@ -1,4 +1,4 @@
-package com.nearmusic.ui.music
+package com.nearmusic.ui.genero
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.nearmusic.databinding.FragmentMusicBinding
-import com.nearmusic.viewmodel.MusicViewModel
+import com.nearmusic.databinding.FragmentGeneroBinding
+import com.nearmusic.viewmodel.GeneroViewModel
 
-class MusicFragment : Fragment() {
+class GeneroFragment : Fragment() {
 
-private var _binding: FragmentMusicBinding? = null
+private var _binding: FragmentGeneroBinding? = null
   // This property is only valid between onCreateView and
   // onDestroyView.
   private val binding get() = _binding!!
@@ -22,14 +22,14 @@ private var _binding: FragmentMusicBinding? = null
     container: ViewGroup?,
     savedInstanceState: Bundle?
   ): View {
-    val musicViewModel =
-            ViewModelProvider(this).get(MusicViewModel::class.java)
+    val generoViewModel =
+            ViewModelProvider(this).get(GeneroViewModel::class.java)
 
-    _binding = FragmentMusicBinding.inflate(inflater, container, false)
+    _binding = FragmentGeneroBinding.inflate(inflater, container, false)
     val root: View = binding.root
 
     val textView: TextView = binding.textHome
-    musicViewModel.text.observe(viewLifecycleOwner) {
+    generoViewModel.text.observe(viewLifecycleOwner) {
       textView.text = it
     }
     return root

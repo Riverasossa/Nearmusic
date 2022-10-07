@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_music">
+    app:startDestination="@+id/nav_genero">
 
     <fragment
-        android:id="@+id/nav_music"
-        android:name="com.nearmusic.ui.music.MusicFragment"
-        android:label="@string/menu_music"
-        tools:layout="@layout/fragment_music" />
+        android:id="@+id/nav_genero"
+        android:name="com.nearmusic.ui.genero.GeneroFragment"
+        android:label="@string/menu_genero"
+        tools:layout="@layout/fragment_genero" />
 
     <fragment
         android:id="@+id/nav_gallery"
