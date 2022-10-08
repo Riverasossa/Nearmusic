@@ -13,4 +13,10 @@
     <string name="menu_genero">Géneros</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="msg_nombre">Nombre de Género</string>
+    <string name="bt_add_genero">Agregar Género</string>
+    <string name="msg_genero_added">Género agregado</string>
+    <string name="msg_data">Datos Incompletos</string>
+
 </resources>
