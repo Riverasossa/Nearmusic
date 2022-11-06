@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_genero">
+
+    <fragment
+        android:id="@+id/nav_genero"
+        android:name="com.nearmusic.ui.genero.GeneroFragment"
+        android:label="@string/menu_genero"
+        tools:layout="@layout/fragment_genero" >
+        <action
+            android:id="@+id/action_nav_genero_to_addGeneroFragment"
+            app:destination="@id/addGeneroFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.nearmusic.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.nearmusic.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addGeneroFragment"
+        android:name="com.nearmusic.ui.genero.AddGeneroFragment"
+        android:label="fragment_add_genero"
+        tools:layout="@layout/fragment_add_genero" >
+        <action
+            android:id="@+id/action_addGeneroFragment_to_nav_genero"
+            app:destination="@id/nav_genero" />
+    </fragment>
+</navigation>
