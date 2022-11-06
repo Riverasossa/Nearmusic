@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "271336482358",
+    "project_id": "nearmusic-3bd58",
+    "storage_bucket": "nearmusic-3bd58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271336482358:android:90232f89242aeb442a9a97",
+        "android_client_info": {
+          "package_name": "com.nearmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271336482358-n37t1lt67s17hg6c478bkcl7usta39f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnVt7rndlbRb_H_ibSTazYwptce_16-ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271336482358-n37t1lt67s17hg6c478bkcl7usta39f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
