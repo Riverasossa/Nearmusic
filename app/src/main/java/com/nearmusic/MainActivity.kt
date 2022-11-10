@@ -25,6 +25,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btRegister.setOnClickListener{ haceRegistro() }
         binding.btLogin.setOnClickListener{ haceLogin() }
+        binding.btFacebooklogin.setOnClickListener{ loginFacebook() }
+
+    }
+
+    private fun loginFacebook() {
 
     }
 

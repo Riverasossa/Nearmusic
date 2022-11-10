@@ -25,4 +25,6 @@ class SpotifyApiRequest {
     suspend fun trackSearch(searchQuery: String): SpotifySearchResult {
         return api!!.search.searchAllTypes(searchQuery, 50, 1, market = Market.CO)
     }
+}
+
 
